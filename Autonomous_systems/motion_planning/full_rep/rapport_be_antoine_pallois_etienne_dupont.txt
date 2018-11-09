@@ -1,0 +1,11 @@
+Rapport de BE - Antoine Pallois & Etienne Dupont
+
+trouvez notre code pour les exercices 1 et 2 dans le dossier "/script". Nous aimerions en outre 
+attirer votre attention sur un problème rencontré dans l'exercice 1. Nous avons essayé de 
+réaliser le schéma RRT entre les configurations q2 et q1 et non plus entre q2 et q3 comme à 
+l'origine. Dans ces conditions l'algorithme converge mais la visualisation du mouvement n'est
+pas possible. Nous avons donc investigué ce phénomène pour comprendre qu'il s'agit d'un problème
+de mémoire : l'entier qui désigne l'identifiant de chemin n'est pas codé sur assez de bits pour
+permettre une identification unique du chemin associé, ce qui engendre des erreurs. On peut s'en
+convaincre en décommentant les lignes "print(...)" dans motion_planner.py dans le cas que nous
+décrivons.

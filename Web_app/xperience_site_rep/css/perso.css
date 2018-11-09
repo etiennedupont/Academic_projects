@@ -1,0 +1,61 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13 avr. 2014, 09:14:23
+    Author     : olivierserre
+*/
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+@import url(https://fonts.googleapis.com/css?family=Itim);
+@import url(https://fonts.googleapis.com/css?family=Share+Tech+Mono);
+
+
+body{  
+    background-image: url(../img/imagesortie.png);
+    background-size:cover;
+}
+
+
+.menugauche .welcome{
+    font-size:50px;
+    text-shadow:3px 2px 3px rgba(200,200,200,0.8);
+}
+
+.menugauche .formulaires{
+    font-size:14px;
+    color:white;
+    padding-top:15px;
+}
+
+.menugauche .formulaires .cases{
+    margin-top:11px;
+    font-size:14px;
+    color:grey;
+    padding-top:0px;
+}
+
+.menugauche .formulaires .cases .boutonsubmit{
+    margin-top:10px;
+}
+
+input{
+    background-color:rgba(200,200,255,0.1);
+    color:white;
+    border-color:white;
+    border-width:1px;
+}
+
+#Identifiant{
+    font-style:italic;
+    font-size:12px;
+}
+
+#pass{
+    font-size:12px;
+    font-style:italic;
+}
+
+
