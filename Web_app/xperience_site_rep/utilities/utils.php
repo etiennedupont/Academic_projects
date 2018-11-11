@@ -1682,7 +1682,7 @@ FIN;
 echo"}";
      echo<<<FIN
 </script>
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCgi78_bEGXDfHtnar5SY4DFcP2rXqBgAg&callback=initialisation"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=callback=initialisation"></script>
 
 FIN;
 
@@ -1753,7 +1753,7 @@ FIN;
     echo <<<FIN
                     }
             </script>
-        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCgi78_bEGXDfHtnar5SY4DFcP2rXqBgAg&callback=initialisation"></script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=callback=initialisation"></script>
     </div>
 FIN;
 }
@@ -1871,7 +1871,7 @@ FIN;
     echo <<<FIN
                     }
             </script>
-        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCgi78_bEGXDfHtnar5SY4DFcP2rXqBgAg&callback=initialisation"></script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=callback=initialisation"></script>
     </div>
 FIN;
 }
