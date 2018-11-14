@@ -8,6 +8,7 @@ instances.
 
 using this framework, I exploited labelled input satellite images in several
 steps :
+
 1 - Creating a set of labelled 64x64 sample images. Labels are "aircraft" vs 
 "background"
 
