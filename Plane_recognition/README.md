@@ -1,4 +1,5 @@
 # Computer vision for plane recognition
+Edit : unfortunately the work is incomplete, due to backup issues in GCP
 
 This project deals with the implementation of convolutional neural networks 
 algorithms to perform planes recognition on satellite images. The project
